@@ -3,4 +3,4 @@ Managen Sie ihre Sammlungen. Egal ob Bücher, DVDs oder Blue-Rays. Organisieren 
 
 
 # Dokumentation
-<a href="https://github.com/PrinzDarknis/The-Bibliotheca/raw/main/docs/Dokumentation.pdf">Dokumentation.pdf</a>
+<a href="https://github.com/PrinzDarknis/The-Bibliotheca/blob/main/docs/Dokumentation.pdf">Dokumentation.pdf</a>
