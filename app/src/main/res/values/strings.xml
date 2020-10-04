@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">The Bibliotheca</string>
+    <string name="nav_header_title">Bibliothek Name</string>
+
+    <string name="action_new">Neu</string>
+    <string name="action_newInfo">neue Information</string>
+    <string name="action_newRelation">neue Beziehnung</string>
+    <string name="action_show">Exemplare anzeigen</string>
+    <string name="action_changeSeries">verkünfte Serie ändern</string>
+
+    <string name="dialog_newLibrary">Name der neuen Bibliothek</string>
+    <string name="dialog_newLibrary_emptyInput">Bilbliotheksname darf nicht leer sein.</string>
+    <string name="dialog_deleteLibrary">Bibliothek "%1$s" löschen?</string>
+    <string name="dialog_deleteLibrary_Details">Dadurch werden auch alle zugehörigen Serien und Exemplare gelöscht.</string>
+    <string name="dialog_newSeries">Name der neuen Serie</string>
+    <string name="dialog_newSeries_emptyInput">Serienname darf nicht leer sein.</string>
+    <string name="dialog_deleteSeries">Serie "%1$s" löschen?</string>
+    <string name="dialog_deleteSeries_incl">Inklusive Exemplare?</string>
+    <string name="dialog_deleteSeries_incl_Details">Möchten Sie auch alle der Serie zugeordneten Exemplare löschen?.</string>
+    <string name="dialog_deleteSeries_incl_yes">incl. Exemplare</string>
+    <string name="dialog_deleteSeries_incl_no">Nur Serie</string>
+    <string name="dialog_newExemplar">Name des neuen Exemplares</string>
+    <string name="dialog_newExemplar_emptyInput">Exemplarname darf nicht leer sein.</string>
+    <string name="dialog_deleteExemplar">Exemplar "%1$s" löschen?</string>
+    <string name="dialog_infoTitle">Weitere Infos</string>
+    <string name="dialog_infoTyp">Typ</string>
+    <string name="dialog_infoTyp_hint">Autor</string>
+    <string name="dialog_infoTyp_emptyInput">Typ darf nicht leer sein.</string>
+    <string name="dialog_infoText">Text</string>
+    <string name="dialog_infoText_hint">Oshino Shinobu</string>
+    <string name="dialog_infoText_emptyInput">Text darf nicht leer sein.</string>
+    <string name="dialog_positiv">OK</string>
+    <string name="dialog_negativ">Abbrechen</string>
+    <string name="dialog_delete">Löschen</string>
+    <string name="dialog_delete_title">Wirklich löschen?</string>
+    <string name="dialog_changeSeriesTitle">neuer Name der Serie</string>
+    <string name="dialog_changeExemplarTitle">neuer Name des Exemplares</string>
+    <string name="dialog_changeAssociatedSeries">neuer Serie zuweisen</string>
+    <string name="dialog_selectPickture">Thumbnail auswählen</string>
+
+    <string name="error_cantGetImage">Die Bilddatei konnte nicht abgerufen werden.</string>
+
+    <string name="menu_libaries">Bibliothek</string>
+    <string name="menu_series">Reihen</string>
+    <string name="menu_exemplar">Exemplare</string>
+    <string name="menu_appInfo">App-Info</string>
+    <string name="menu_noLibrary">keine Bibliothek</string>
+
+    <string name="exemplar_state">Status:</string>
+
+    <string name="info_and_relation__info">Info:</string>
+    <string name="info_and_relation_parents">Vorgänger:</string>
+    <string name="info_and_relation_children">Nachfolger:</string>
+    <string name="info_and_relation_spinnoff">Spinnoffs:</string>
+
+    <string name="activoty_relationedit_is">ist</string>
+    <string name="activoty_relationedit_of">von</string>
+    <string name="activoty_relationedit_unknowntitle">"%1$s" ist unbekannt</string>
+    <string name="activoty_relationedit_sametitle">Eine Beziehung zu sich selbst ist nicht erlaubt.</string>
+
+    <string name="appInfoText">
+        Managen Sie ihre Sammlungen.\n
+        Egal ob Bücher, DVDs oder Blue-Rays. Organisieren Sie einfach alle in einer App und behalten Sie den Überblick, was Sie besitzen, was sie bereits bestellt haben und auch was Ihnen noch fehlt.
+    </string>
+    <string name="appInfoloadSample">Beispiele Laden</string>
+    <string name="appInfoloadSample_title">Warnung!</string>
+    <string name="appInfoloadSample_details">Es müssen einige Bilder aus dem Internet geladen werden. Dies kann zu einen erhöhten Verbrauch ihrer Mobilendaten führen.</string>
+    <string name="appInfoloadSample_no_inet_perm">Keine Rechte für Internetzugriff. Vorgang abgebrochen.</string>
+    <string name="appInfoloadSample_image_fail">Die Bilder konnten nicht runtergeladen werden. Versuchen Sie es später erneut.</string>
+    <string name="appInfoloadSample_image_background">Bilder werden im Hintergrund heruntergeladen.</string>
+    <string name="appInfoloadSample_image_success">Bilder erfolgreich runtergeladen.</string>
+    <string name="appInfoDeleteDB">Datenbank löschen</string>
+    <string name="appInfoDeleteDB_title_1">Datenbank löschen?</string>
+    <string name="appInfoDeleteDB_details_1">Dadurch werden ALLE Daten gelöscht.</string>
+    <string name="appInfoDeleteDB_title_2">Sicher?</string>
+    <string name="appInfoDeleteDB_details_2">Sind Sie wirklich sicher?</string>
+    <string name="appInfoDeleteDB_title_3">letzte Warnung</string>
+    <string name="appInfoDeleteDB_details_3">Wenn Sie jetzt bestätigen werden alle Daten gelöscht.</string>
+
+</resources>

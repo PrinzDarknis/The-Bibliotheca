@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_libary">
+
+    <fragment
+        android:id="@+id/nav_libary"
+        android:name="com.prinzdarknis.thebibliotheca.ui.Overviews.Libraries"
+        android:label="@string/menu_libaries"
+        tools:layout="@layout/fragment_simplelistview"/>
+
+    <fragment
+        android:id="@+id/nav_series"
+        android:name="com.prinzdarknis.thebibliotheca.ui.Overviews.SeriesOverview"
+        android:label="@string/menu_series"
+        tools:layout="@layout/fragment_simplelistview" />
+
+    <fragment
+        android:id="@+id/nav_exemplar"
+        android:name="com.prinzdarknis.thebibliotheca.ui.Overviews.ExemplarOverview"
+        android:label="{dynamicTitle}"
+        tools:layout="@layout/fragment_simplelistview" >
+        <argument
+            android:name="dynamicTitle"
+            app:argType="string"
+            android:defaultValue="Exemplare"/>
+        <!-- Verweiß auf Resource für zu Parserfehler
+            android:defaultValue="@string/menu_exemplar"
+        -->
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_series_edit"
+        android:name="com.prinzdarknis.thebibliotheca.ui.SingleViews.SeriesView"
+        android:label="{dynamicTitle}"
+        tools:layout="@layout/fragment_series_view" >
+        <argument
+            android:name="dynamicTitle"
+            app:argType="string"
+            android:defaultValue=" "/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_exemplar_edit"
+        android:name="com.prinzdarknis.thebibliotheca.ui.SingleViews.ExemplarView"
+        android:label="{dynamicTitle}"
+        tools:layout="@layout/fragment_exemplar_view" >
+        <argument
+            android:name="dynamicTitle"
+            app:argType="string"
+            android:defaultValue=" "/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_appInfo"
+        android:name="com.prinzdarknis.thebibliotheca.ui.InfoFragment"
+        android:label="@string/menu_appInfo"
+        tools:layout="@layout/fragment_info" />
+</navigation>
