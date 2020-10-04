@@ -66,6 +66,11 @@ public class InfoFragment extends Fragment {
                 ProgramLogic.getInstance().loadSampleData(new IImageManager.Callback() {
                     @Override
                     public void callback(final boolean success) {
+                        //Check Activity still exist?
+                        if(getActivity() == null)
+                            return;
+
+                        //Task
                         getActivity().runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
